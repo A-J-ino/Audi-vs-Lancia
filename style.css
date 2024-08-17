@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('C:\college projects\audi vs lancia .jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: Teal;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  background-color: rgba(0, 128, 128, 0.8);
+  color: white;
+  padding: 10px;
+}
+
+h2 {
+  background-color: rgba(220, 220, 220, 0.8);
+  padding: 10px;
+}
+
+p, label, textarea, input {
+  background-color: rgba(95, 158, 160, 0.8);
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+button {
+  background-color: Teal;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#commentSection div {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
